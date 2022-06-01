@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<permissions>
+
+<!-- For the white-listed apps to always have internet access while in power save mode,
+     even if they aren't in the foreground include <allow-in-power-save> tag.
+     Only system apps can be added to this list. -->
+<!-- eg : <allow-in-power-save package="com.android.example" /> -->
+	<allow-in-power-save package="com.qihoo.kidwatch.addfriend" />
+	<allow-in-power-save package="com.qihoo360.kidwatch.im" />
+	<allow-in-power-save package="com.qihoo.kids" />
+	<allow-in-power-save package="com.qihoo.ota.helper" />
+	<allow-in-power-save package="com.qihoo360.kidwatch.settings" />
+	<allow-in-power-save package="com.qihoo.kidwatch.simunlock" />
+	<allow-in-power-save package="com.qihoo.watch.sport" />
+	<allow-in-power-save package="com.qihoo.watch.stopwatch" />
+	<allow-in-power-save package="com.qihoo.kids.watch" />
+	<allow-in-power-save package="com.qihoo.kids.camera.activity" />
+	<allow-in-power-save package="com.qihoo.kids.smartlocation" />
+	<allow-in-power-save package="com.qihoo.kids.balance" />
+	<allow-in-power-save package="com.qihoo.musicbox" />
+	<allow-in-power-save package="com.qihoo.kids.gallery" />
+	<allow-in-power-save package="com.qihoo.kids.gallery.syn" />
+	<allow-in-power-save package="com.wear.fantasy360" />
+	<allow-in-power-save package="com.qihoo.kids.sos" />
+	<allow-in-power-save package="com.qihoo.kids.videocall" />
+	<allow-in-power-save package="com.qihoo.kids.virtualguy" />
+	<allow-in-power-save package="com.qihoo.kids.record" />
+	<allow-in-power-save package="com.android.dialer" />
+	<allow-in-power-save package="com.android.deskclock" />
+	<allow-in-power-save package="com.qiku.logsystem" />
+	<allow-in-power-save package="com.android.messaging" />
+	<allow-in-power-save package="com.android.providers.whitelist" />
+	<allow-in-power-save package="com.qihoo360.kidwatch.bleadvertisingservice" />
+	<allow-in-power-save package="com.qihoo.kids.medal" />
+	<allow-in-power-save package="com.qihoo.kids.qihoostory" />
+	<allow-in-power-save package="com.qihoo.kidwatch.ressyncservice" />
+	<allow-in-power-save package="com.qihoo360.kidwatch.commonService" />
+	<allow-in-power-save package="com.qihoo360.kidwatch" />
+	<allow-in-power-save package="com.qihoo360.kidwatch.telephonyuploadservice" />
+	<allow-in-power-save package="com.qihoo.kidwatch" />
+	<allow-in-power-save package="com.tencent.qqlite" />
+</permissions>
